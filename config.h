@@ -29,9 +29,7 @@ static const Block blocks[] = {
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-// There a unicode pipe(U+019A) separator, might not be visible in browser
-/* static char *delim = " ƚ "; */
-static char *delim = " ƚ ";
+static char *delim = " ∙ ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
